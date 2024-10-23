@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.description {
+    /* width: 1440px; */
+    height: 680px;
+    background-image: url("../img/Rectangle1.png");
+}
+.box_inner {
+    padding: 50px 190px 75px;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    width: 600px;
+    justify-content: space-between;
+}
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+a:hover {
+    background-color: black;
+    border-radius: 5px;
+
+}
+.slogan {
+
+    padding-left: 190px;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 80px;
+    margin-bottom: 30px;
+
+}
+.slogan p {
+    margin: 0;
+}
+.white {
+    color: white;
+}
+.text {
+    padding-left: 190px;
+    max-width: 700px;
+    font-family: 'Courier New', Courier, monospace ;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services {
+    height: 520px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+.services-box-inner {
+    width: 1060px;
+    height: 400px;
+    margin: 50px 190px 70px;
+    /* border: 1px solid blue; */
+}
+.services-title {
+    margin: 0;
+    margin-bottom: 100px;
+}
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, monospace, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+span.red {
+    color: red;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 165px;
+    align-items: center;
+    font-size: 20px;
+    line-height: 28px;
+}
+.item p {
+    text-align: center;
+}
+.story {
+    background-color: #130E27;
+    height: 124px;
+
+}
+.story-box-inner {
+    width: 1060px;
+    margin: 0 190px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 30px;
+
+}
+.story-text {
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 600px;
+}
+.button {
+    width: 270px;
+    height: 65px;
+    background-color: #C62314;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+.pricing {
+    background-color: #EFEFEF;
+    height: 690px;
+
+}
+.pricing-title {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, monospace, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tarif-box {
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tarif-item {
+    width: 340px;
+    height: 460px;
+    background-color: #fff;
+    text-align: center;
+}
+.tarif-text {
+    color: black;
+}
+.tarif-button {
+    width: 205px;
+    height: 50px;
+}
+.tarif-box h3 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: serif;
+    margin: 0;
+    margin-top: 30px;
+}
+.tarif-text {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.tarif-button {
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    padding-top: 11px;
+    margin-top: 20px;
+}
+.price {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #C62314;
+    margin-bottom: 20px;
+}
+.tarif-item1 > .tarif-button {
+    background-color: black;
+}
+.tarif-item2 > .tarif-button {
+    background-color: #C62314;
+}
+.tarif-item3 > .tarif-button {
+    background-color: black;
+}
+.footer {
+    height: 190px;
+    background-color: #130E27;
+}
+.footer-text {
+    color: #fff;
+    width: 610px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-box {
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.span-footer {
+    color: #C62314;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+
+}
